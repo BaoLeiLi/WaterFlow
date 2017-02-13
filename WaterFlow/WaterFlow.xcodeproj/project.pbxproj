@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95558411E51897C005CDABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558401E51897C005CDABE /* main.m */; };
+		B95558441E51897C005CDABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558431E51897C005CDABE /* AppDelegate.m */; };
+		B95558471E51897C005CDABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558461E51897C005CDABE /* ViewController.m */; };
+		B955584A1E51897C005CDABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95558481E51897C005CDABE /* Main.storyboard */; };
+		B955584C1E51897C005CDABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B955584B1E51897C005CDABE /* Assets.xcassets */; };
+		B955584F1E51897C005CDABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B955584D1E51897C005CDABE /* LaunchScreen.storyboard */; };
+		B955585A1E51897C005CDABE /* WaterFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558591E51897C005CDABE /* WaterFlowTests.m */; };
+		B95558651E51897C005CDABE /* WaterFlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558641E51897C005CDABE /* WaterFlowUITests.m */; };
+		B95558771E5189C7005CDABE /* Waterflow.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558741E5189C7005CDABE /* Waterflow.m */; };
+		B95558781E5189C7005CDABE /* WaterflowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B95558761E5189C7005CDABE /* WaterflowCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95558561E51897C005CDABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95558341E51897C005CDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B955583B1E51897C005CDABE;
+			remoteInfo = WaterFlow;
+		};
+		B95558611E51897C005CDABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95558341E51897C005CDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B955583B1E51897C005CDABE;
+			remoteInfo = WaterFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B955583C1E51897C005CDABE /* WaterFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95558401E51897C005CDABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95558421E51897C005CDABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95558431E51897C005CDABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95558451E51897C005CDABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B95558461E51897C005CDABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B95558491E51897C005CDABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B955584B1E51897C005CDABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B955584E1E51897C005CDABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95558501E51897C005CDABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95558551E51897C005CDABE /* WaterFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95558591E51897C005CDABE /* WaterFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowTests.m; sourceTree = "<group>"; };
+		B955585B1E51897C005CDABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95558601E51897C005CDABE /* WaterFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95558641E51897C005CDABE /* WaterFlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowUITests.m; sourceTree = "<group>"; };
+		B95558661E51897C005CDABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95558731E5189C7005CDABE /* Waterflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waterflow.h; sourceTree = "<group>"; };
+		B95558741E5189C7005CDABE /* Waterflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waterflow.m; sourceTree = "<group>"; };
+		B95558751E5189C7005CDABE /* WaterflowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterflowCell.h; sourceTree = "<group>"; };
+		B95558761E5189C7005CDABE /* WaterflowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterflowCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95558391E51897C005CDABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95558521E51897C005CDABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955585D1E51897C005CDABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95558331E51897C005CDABE = {
+			isa = PBXGroup;
+			children = (
+				B955583E1E51897C005CDABE /* WaterFlow */,
+				B95558581E51897C005CDABE /* WaterFlowTests */,
+				B95558631E51897C005CDABE /* WaterFlowUITests */,
+				B955583D1E51897C005CDABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B955583D1E51897C005CDABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B955583C1E51897C005CDABE /* WaterFlow.app */,
+				B95558551E51897C005CDABE /* WaterFlowTests.xctest */,
+				B95558601E51897C005CDABE /* WaterFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B955583E1E51897C005CDABE /* WaterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B95558721E5189A5005CDABE /* Calsses */,
+				B95558421E51897C005CDABE /* AppDelegate.h */,
+				B95558431E51897C005CDABE /* AppDelegate.m */,
+				B95558451E51897C005CDABE /* ViewController.h */,
+				B95558461E51897C005CDABE /* ViewController.m */,
+				B95558481E51897C005CDABE /* Main.storyboard */,
+				B955584B1E51897C005CDABE /* Assets.xcassets */,
+				B955584D1E51897C005CDABE /* LaunchScreen.storyboard */,
+				B95558501E51897C005CDABE /* Info.plist */,
+				B955583F1E51897C005CDABE /* Supporting Files */,
+			);
+			path = WaterFlow;
+			sourceTree = "<group>";
+		};
+		B955583F1E51897C005CDABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95558401E51897C005CDABE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95558581E51897C005CDABE /* WaterFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				B95558591E51897C005CDABE /* WaterFlowTests.m */,
+				B955585B1E51897C005CDABE /* Info.plist */,
+			);
+			path = WaterFlowTests;
+			sourceTree = "<group>";
+		};
+		B95558631E51897C005CDABE /* WaterFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95558641E51897C005CDABE /* WaterFlowUITests.m */,
+				B95558661E51897C005CDABE /* Info.plist */,
+			);
+			path = WaterFlowUITests;
+			sourceTree = "<group>";
+		};
+		B95558721E5189A5005CDABE /* Calsses */ = {
+			isa = PBXGroup;
+			children = (
+				B95558731E5189C7005CDABE /* Waterflow.h */,
+				B95558741E5189C7005CDABE /* Waterflow.m */,
+				B95558751E5189C7005CDABE /* WaterflowCell.h */,
+				B95558761E5189C7005CDABE /* WaterflowCell.m */,
+			);
+			path = Calsses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B955583B1E51897C005CDABE /* WaterFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95558691E51897C005CDABE /* Build configuration list for PBXNativeTarget "WaterFlow" */;
+			buildPhases = (
+				B95558381E51897C005CDABE /* Sources */,
+				B95558391E51897C005CDABE /* Frameworks */,
+				B955583A1E51897C005CDABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterFlow;
+			productName = WaterFlow;
+			productReference = B955583C1E51897C005CDABE /* WaterFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95558541E51897C005CDABE /* WaterFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B955586C1E51897C005CDABE /* Build configuration list for PBXNativeTarget "WaterFlowTests" */;
+			buildPhases = (
+				B95558511E51897C005CDABE /* Sources */,
+				B95558521E51897C005CDABE /* Frameworks */,
+				B95558531E51897C005CDABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95558571E51897C005CDABE /* PBXTargetDependency */,
+			);
+			name = WaterFlowTests;
+			productName = WaterFlowTests;
+			productReference = B95558551E51897C005CDABE /* WaterFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B955585F1E51897C005CDABE /* WaterFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B955586F1E51897C005CDABE /* Build configuration list for PBXNativeTarget "WaterFlowUITests" */;
+			buildPhases = (
+				B955585C1E51897C005CDABE /* Sources */,
+				B955585D1E51897C005CDABE /* Frameworks */,
+				B955585E1E51897C005CDABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95558621E51897C005CDABE /* PBXTargetDependency */,
+			);
+			name = WaterFlowUITests;
+			productName = WaterFlowUITests;
+			productReference = B95558601E51897C005CDABE /* WaterFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95558341E51897C005CDABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "mervyn_lbl@163.com";
+				TargetAttributes = {
+					B955583B1E51897C005CDABE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5AJ3WQUW4C;
+						ProvisioningStyle = Automatic;
+					};
+					B95558541E51897C005CDABE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5AJ3WQUW4C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B955583B1E51897C005CDABE;
+					};
+					B955585F1E51897C005CDABE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5AJ3WQUW4C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B955583B1E51897C005CDABE;
+					};
+				};
+			};
+			buildConfigurationList = B95558371E51897C005CDABE /* Build configuration list for PBXProject "WaterFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95558331E51897C005CDABE;
+			productRefGroup = B955583D1E51897C005CDABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B955583B1E51897C005CDABE /* WaterFlow */,
+				B95558541E51897C005CDABE /* WaterFlowTests */,
+				B955585F1E51897C005CDABE /* WaterFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B955583A1E51897C005CDABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955584F1E51897C005CDABE /* LaunchScreen.storyboard in Resources */,
+				B955584C1E51897C005CDABE /* Assets.xcassets in Resources */,
+				B955584A1E51897C005CDABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95558531E51897C005CDABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955585E1E51897C005CDABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95558381E51897C005CDABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95558781E5189C7005CDABE /* WaterflowCell.m in Sources */,
+				B95558471E51897C005CDABE /* ViewController.m in Sources */,
+				B95558771E5189C7005CDABE /* Waterflow.m in Sources */,
+				B95558441E51897C005CDABE /* AppDelegate.m in Sources */,
+				B95558411E51897C005CDABE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95558511E51897C005CDABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955585A1E51897C005CDABE /* WaterFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955585C1E51897C005CDABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95558651E51897C005CDABE /* WaterFlowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95558571E51897C005CDABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B955583B1E51897C005CDABE /* WaterFlow */;
+			targetProxy = B95558561E51897C005CDABE /* PBXContainerItemProxy */;
+		};
+		B95558621E51897C005CDABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B955583B1E51897C005CDABE /* WaterFlow */;
+			targetProxy = B95558611E51897C005CDABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95558481E51897C005CDABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95558491E51897C005CDABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B955584D1E51897C005CDABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B955584E1E51897C005CDABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95558671E51897C005CDABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B95558681E51897C005CDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B955586A1E51897C005CDABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5AJ3WQUW4C;
+				INFOPLIST_FILE = WaterFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBL.WaterFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B955586B1E51897C005CDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5AJ3WQUW4C;
+				INFOPLIST_FILE = WaterFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBL.WaterFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B955586D1E51897C005CDABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5AJ3WQUW4C;
+				INFOPLIST_FILE = WaterFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBL.WaterFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFlow.app/WaterFlow";
+			};
+			name = Debug;
+		};
+		B955586E1E51897C005CDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5AJ3WQUW4C;
+				INFOPLIST_FILE = WaterFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBL.WaterFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFlow.app/WaterFlow";
+			};
+			name = Release;
+		};
+		B95558701E51897C005CDABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5AJ3WQUW4C;
+				INFOPLIST_FILE = WaterFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBL.WaterFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterFlow;
+			};
+			name = Debug;
+		};
+		B95558711E51897C005CDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5AJ3WQUW4C;
+				INFOPLIST_FILE = WaterFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBL.WaterFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95558371E51897C005CDABE /* Build configuration list for PBXProject "WaterFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95558671E51897C005CDABE /* Debug */,
+				B95558681E51897C005CDABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95558691E51897C005CDABE /* Build configuration list for PBXNativeTarget "WaterFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B955586A1E51897C005CDABE /* Debug */,
+				B955586B1E51897C005CDABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B955586C1E51897C005CDABE /* Build configuration list for PBXNativeTarget "WaterFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B955586D1E51897C005CDABE /* Debug */,
+				B955586E1E51897C005CDABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B955586F1E51897C005CDABE /* Build configuration list for PBXNativeTarget "WaterFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95558701E51897C005CDABE /* Debug */,
+				B95558711E51897C005CDABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95558341E51897C005CDABE /* Project object */;
+}
